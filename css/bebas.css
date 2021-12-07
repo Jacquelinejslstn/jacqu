@@ -1,0 +1,18 @@
+#konten h1 {
+  margin-top: 200px;
+  text-align: center;
+  color: #15275b;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+#konten .garis {
+  width: 80px;
+  height: 2px;
+  background-color: #20336d;
+  margin: 30px auto;
+}
+#konten .akhir {
+  margin-bottom: 150px;
+}

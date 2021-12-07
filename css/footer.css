@@ -1,0 +1,65 @@
+footer {
+  background-color: #20336d;
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+footer h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+footer h3 {
+  font-weight: 600;
+  font-size: 15px;
+}
+footer p {
+  font-size: 15px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin-top: 20px;
+  width: 10%;
+  margin-left: 20px;
+  padding: 0 5px;
+  display: flex;
+  float: left;
+  justify-content: space-between;
+}
+footer .row .col-3 img {
+  width: 75% !important;
+}
+footer a.kontak {
+  text-decoration: none;
+  color: white;
+}
+footer a.kontak:hover {
+  border-bottom: 1px solid white;
+}
+.copyright {
+  color: white;
+  background-color: #15275b;
+}
+.copyright p {
+  font-size: 10pt;
+}
+.copyright a {
+  text-decoration: none;
+  color: white;
+}
+.copyright a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+@media (max-width: 600px) {
+  footer .logo img {
+    display: none;
+  }
+  footer .kontak {
+    display: none;
+  }
+}
