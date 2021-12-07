@@ -8,7 +8,7 @@ body{
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-  width: 500px;
+  width: 450px;
 }
 .card img{ 
   position:relative;
@@ -18,12 +18,20 @@ body{
   z-index: 1;
   margin-top: 10px;
 }
-.card-footer .socmed img{
-  text-align: center;
-  padding-bottom: 20px;
-  width: 35px;
+.card-body button{
+  color: white;
 }
-.socmed p{
-  font-size: 20px;
-  color: darkgray;
+.card-body p{
+  text-align: justify;
+  margin: 25px;
+}
+.card-footer img{
+  margin: 0 10px 5px 10px;
+  display: inline-flex;
+  padding-bottom: 10px;
+}
+.card-footer p{
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
