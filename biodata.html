@@ -12,30 +12,41 @@
     <link rel="stylesheet" href="./index.html"/>
     <!-- style cssnya -->
     <link rel="stylesheet" href="./css/reset.css"/>
-    <link rel="stylesheet" href="./css/navbar.css"/>
+    <link rel="stylesheet" href="./css/navbarbootstrap.css"/>
     <link rel="stylesheet" href="./css/biodata.css"/>
     <link rel="stylesheet" href="./css/footer.css"/>
     <title>Biodata</title>
   </head>
   <body>
     <!-- NAVBAR -->
-    <div id="navbar" class="navbar">
-      <div class="container">
-        <a href="#main"><img src="./img/headerlogo_1.png" alt="header logo" class="logo"/></a>
-        <ul>
-          <li><a target="_blank" href="https://fti.unai.edu">Beranda</a></li>
-          <li><a target="_blank" href="https://unai.edu">SEKOLAH</a></li>
-          <li><a target="_blank" href="./biodata.html">Biodata</a></li>
-          <li><a target="_blank" href="./contact_us.html">Kontak kami</a></li>
-          <li><a target="_blank" href="./gallery.html">Fasilitas</a></li>
-          <li><a target="_blank" href="./bebas.html">Karir</a></li>
-        </ul>
-        <a href="#" class="flag">
-          <img src="./img/englishflag.png" alt="UKflag" class="flaging" title="Bahasa Inggris"/>
-          <img src="./img/indoflag.png" alt="IDflag" class="flagindo" title="Bahasa Indonesia"/>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;">
+      <div class="container-fluid container">
+        <a class="navbar-brand" href="./index.html"><img src="./img/headerlogo_1.png" alt="header logo" class="logo"/></a>
+        <a href="" class="flag d-flex" id="flag">
+          <div class="satu">
+            <img src="img/englishflag.png" alt="UKflag" class="flaging" title="Bahasa Inggris">
+          </div>
+          <div class="dua">
+            <img src="img/indoflag.png" alt="IDflag" class="flagindo" title="Bahasa Indonesia">
+          </div>
         </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="ikonnya atas-bar"></span>
+          <span class="ikonnya tengah-bar"></span>
+          <span class="ikonnya bawah-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="https://fti.unai.edu">BERANDA</a></li>
+            <li class="nav-item"><a class="nav-link active" href="https://unai.edu">SEKOLAH</a></li>
+            <li class="nav-item"><a class="nav-link active" href="biodata.html">BIODATA</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact_us.html">KONTAK KAMI</a></li>
+            <li class="nav-item"><a class="nav-link active" href="gallery.html">FASILITAS</a></li>
+            <li class="nav-item"><a class="nav-link active li-last" href="bebas.html">KARIR</a></li>
+          </ul>  
+        </div> 
       </div>
-    </div>
+    </nav>
     <!-- BIODATA -->
     <div class="background"></div>
     <div class="utama">
