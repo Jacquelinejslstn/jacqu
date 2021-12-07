@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="Icon" href="https://iphschools.sch.id/file/favicon.png"/>
+    <!-- MENU -->
+    <link rel="stylesheet" href="./gallery.html"/>
+    <link rel="stylesheet" href="./bebas.html"/>
+    <link rel="stylesheet" href="./biodata.html"/>
+    <link rel="stylesheet" href="./index.html"/>
+    <!-- style cssnya -->
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/navbar.css"/>
+    <link rel="stylesheet" href="./css/contact_us.css"/>
+    <link rel="stylesheet" href="./css/footer.css"/>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div id="navbar" class="navbar">
+      <div class="container">
+        <a href="#main"><img src="./img/headerlogo_1.png" alt="header logo" class="logo"/></a>
+        <ul>
+          <li><a target="_blank" href="https://fti.unai.edu">Beranda</a></li>
+          <li><a target="_blank" href="https://unai.edu">SEKOLAH</a></li>
+          <li><a target="_blank" href="./biodata.html">Biodata</a></li>
+          <li><a target="_blank" href="./contact_us.html">Kontak kami</a></li>
+          <li><a target="_blank" href="./gallery.html">Fasilitas</a></li>
+          <li><a target="_blank" href="./bebas.html">Karir</a></li>
+        </ul>
+        <a href="#" class="flag">
+          <img src="./img/englishflag.png" alt="UKflag" class="flaging" title="Bahasa Inggris"/>
+          <img src="./img/indoflag.png" alt="IDflag" class="flagindo" title="Bahasa Indonesia"/>
+        </a>
+      </div>
+    </div>
+    <!-- FORMULIR -->
+    <h1>Formulir Pendaftaran:</h1>
+    <div id="form">
+      <form action="simpan.php" method="get">
+        <label for="nama">Nama Lengkap</label><br>
+        <input style="width: 300px" type="text" id="nama" name="nama" placeholder="Nama Lengkap Anda"/><br/>
+        <label for="username">Username</label><br>
+        <input style="width: 300px" type="text" id="username" name="username" placeholder="Masukkan Username anda"/><br>
+        <label for="password">Password</label><br>
+        <input style="width: 300px" type="password" name="password" id="password"/><br/><br>
+        <label for="jenis_kelamin">Jenis Kelamin</label> &nbsp;
+        <input type="radio" name="jenis_kelamin" value="perempuan"/>Perempuan &nbsp; <input type="radio" name="jenis_kelamin" value="laki-laki"/>Laki-laki<br/><br>
+        <label for="agama">Agama</label><br>
+        <select name="agama" id="agama" size="1" style="width: 300px;">
+          <option>Pilih Agama</option>
+          <option value="kristen_protestan">Kristen Protestan</option>
+          <option value="islam">Islam</option>
+          <option value="hindu">Hindu</option>
+          <option value="budha">Budha</option>
+        </select>
+        <br>
+        <label for="alamat">Alamat</label><br><br>
+        <textarea name="alamat" id="alamat" cols="35" rows="10" placeholder="Ketikkan alamat anda"></textarea>
+        <br><br>
+        <label for="hobby">Hobby</label><br><br>
+        <input type="checkbox" name="membaca" id="membaca" value="membaca"/>
+        <label form="membaca">Membaca</label>
+        <input type="checkbox" name="menulis" id="menulis" value="menulis"/>
+        <label form="membaca">Membaca</label>
+        <input type="checkbox" name="ngoding" id="ngoding" value="ngoding"/>
+        <label form="ngoding">Ngoding</label><br/><br/>
+        <input type="checkbox" name="menyanyi" id="menyanyi" value="menyanyi"/>
+        <label form="membaca">Menyanyi</label>
+        <input type="checkbox" name="memasak" id="memasak" value="memasak"/>
+        <label form="membaca">Memasak</label>
+        <input type="checkbox" name="editing" id="editing" value="editing"/>
+        <label form="ngoding">Editing</label>
+        <br><br>
+        <input type="submit" value="Simpan"/>
+        <input type="reset" value="Reset"/>
+      </form>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <table>
+          <tr>
+            <td><a href="https://www.iphschools.sch.id/"><img style="padding-bottom: 7em;" src="./img/headerlogo_id.png" alt="Logo IPH"/></a></td>
+            <td>
+              <h2 class="td1">IPH&nbsp;KAMPUS TIMUR</h2>
+              <h3>KELOMPOK BERMAIN - TK</h3>
+              <p>Jl. Nginden Intan Selatan 49<br />Surabaya 60118<br/></p>
+              <p>&nbsp;</p>
+              <h3>SEKOLAH DASAR - <br />SEKOLAH MENENGAH PERTAMA &amp; ATAS<br /></h3>
+              <p>Jl. Raya Kedung Baruk 112-114<br />Surabaya 60298<br/></p>
+            </td>
+            <td>
+              <h2 class="td2">KAMPUS BARAT</h2>
+              <h3>KELOMPOK BERMAIN - TK</h3>
+              <p>Jl. Pattimura 24, Plaza Segi 8<br/>Surabaya 60189<br/></p>
+              <p>&nbsp;</p>
+              <h3>SEKOLAH DASAR - SEKOLAH <br/>MENENGAH PERTAMA &amp; ATAS<br/></h3>
+              <p>Jl. Pattimura 2, Plaza Segi 8<br/>Surabaya 60189<br/></p>
+            </td>
+            <td>
+              <h2 class="td3">KONTAK SAYA</h2>
+              <a href="tel:+6289601986519" class="kontak">0896-0198-6519<a>
+              <a href="mailto:marketing@iphschools.sch.id" class="kontak">marketing@iphschools.sch.id</a>
+              <ul>
+                <li style="margin-left: -10px"></li>
+                <li>
+                  <a href="tel:+6289601986519"><img src="http://iphschools.sch.id/file/media/source/footerPHONE.png" alt="footerPHONE"/></a>
+                </li>
+                <li>
+                  <a href="http://api.whatsapp.com/send?phone=6289601986519"><img src="http://iphschools.sch.id/file/media/source/footerWA.png" alt="footerWA"/></a>
+                </li>
+                <li>
+                  <a href="mailto:2081011@unai.edu"><img src="http://iphschools.sch.id/file/media/source/footerMAIL.png" alt="footerMAIL"/></a>
+                </li>
+              </ul>
+            </td>
+          </tr> 
+        </table>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <p>Powered by&nbsp;<a href="https://www.fiesto.com">fiesto.com</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
