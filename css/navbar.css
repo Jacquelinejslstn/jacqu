@@ -1,47 +1,14 @@
-/* NAVBAR */
-.navbar {
-  background-color: white;
-  height: 80px;
-  width: 100%;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  border-bottom: 1px solid rgba(173, 173, 173, 0.596);
+/* FLAG  */
+@media (min-width: 800px) {
+  #flag {
+    position: absolute;
+    left: 80%;
+    top: 40%;
+  }
 }
-.logo {
-  cursor: pointer;
-  margin-left: 8px;
-  padding: 10px 0;
-}
-.navbar ul {
-  margin-left: -20px;
-  float: right;
-}
-.navbar ul li {
-  list-style: none;
-  display: inline-block;
-}
-.navbar ul li a {
-  line-height: 80px;
-  padding-left: 10px;
-  font-size: 15px;
-  padding: 8px 12px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-}
-.navbar ul li a:hover {
-  outline: 2px solid #15275b;
-  transition-delay: 150ms;
-  transition: ease-out;
-}
-.flag {
-  float: right;
-  height: 23px;
-  display: flex;
-  margin-right: -620px;
-  margin-top: 28px;
-  width: 24px;
+#flag {
+  margin-left: 135px;
+  margin-top: -5px;
 }
 .flagindo {
   filter: saturate(0.5);
@@ -53,4 +20,74 @@
 .flag .flagindo:hover,
 .flag .flaging:hover {
   filter: saturate(1);
+}
+
+nav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.246);
+}
+nav #navbarNav ul li .li-last {
+  margin-right: 70px;
+}
+#navbarNav ul li {
+  font-size: 15px;
+  color: black;
+  padding-left: 20px;
+}
+#navbarNav ul li a:hover {
+  outline: 2px solid #15275b;
+  transition-delay: 150ms;
+  transition: ease-out;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  border-radius: 0%;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.ikonnya {
+  width: 30px;
+  height: 4px;
+  background: #21356c;
+  display: block;
+  margin: 0 auto;
+}
+.tengah-bar {
+  margin: 5px;
+}
+.bawah-bar {
+  width: 19px;
+  margin: 5px;
+}
+
+.navbar-toggler .atas-bar {
+  transform: rotate(45deg);
+  transform-origin: 25% 220%;
+}
+.navbar-toggler .bawah-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.navbar-toggler .tengah-bar {
+  transform: rotate(-45deg);
+  transform-origin: 50% -80%;
+}
+.navbar-toggler.collapsed .atas-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .bawah-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .tengah-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .ikonnya {
+  background: #21356c;
 }
