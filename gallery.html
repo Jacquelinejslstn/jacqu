@@ -12,115 +12,168 @@
     <link rel="stylesheet" href="./contact_us.html">
     <!-- style cssnya -->
     <link rel="stylesheet" href="./css/reset.css"/>
-    <link rel="stylesheet" href="./css/navbar.css"/>
+    <link rel="stylesheet" href="./css/navbarbootstrap.css"/>
     <link rel="stylesheet" href="./css/gallery.css"/>
     <link rel="stylesheet" href="./css/footer.css"/>
+     <!-- Bootrstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Gallery</title>
   </head>
   <body>
     <!-- NAVBAR -->
-    <div id="navbar" class="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;">
+      <div class="container-fluid container">
+        <a class="navbar-brand" href="./index.html"><img src="./img/headerlogo_1.png" alt="header logo" class="logo"/></a>
+        <a href="" class="flag d-flex" id="flag">
+          <div class="satu">
+            <img src="img/englishflag.png" alt="UKflag" class="flaging" title="Bahasa Inggris">
+          </div>
+          <div class="dua">
+            <img src="img/indoflag.png" alt="IDflag" class="flagindo" title="Bahasa Indonesia">
+          </div>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="ikonnya atas-bar"></span>
+          <span class="ikonnya tengah-bar"></span>
+          <span class="ikonnya bawah-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="https://fti.unai.edu">BERANDA</a></li>
+            <li class="nav-item"><a class="nav-link active" href="https://unai.edu">SEKOLAH</a></li>
+            <li class="nav-item"><a class="nav-link active" href="biodata.html">BIODATA</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact_us.html">KONTAK KAMI</a></li>
+            <li class="nav-item"><a class="nav-link active" href="gallery.html">FASILITAS</a></li>
+            <li class="nav-item"><a class="nav-link active li-last" href="bebas.html">KARIR</a></li>
+          </ul>  
+        </div> 
+      </div>
+    </nav>
+    <!-- Gallery -->
+    <section id="gallery">
       <div class="container">
-        <a href="#main"><img src="./img/headerlogo_1.png" alt="header logo" class="logo"/></a>
-        <ul>
-          <li><a target="_blank" href="https://fti.unai.edu">Beranda</a></li>
-          <li><a target="_blank" href="https://unai.edu">SEKOLAH</a></li>
-          <li><a target="_blank" href="./biodata.html">Biodata</a></li>
-          <li><a target="_blank" href="./contact_us.html">Kontak kami</a></li>
-          <li><a target="_blank" href="./gallery.html">Fasilitas</a></li>
-          <li><a target="_blank" href="./bebas.html">Karir</a></li>
-        </ul>
-         <a href="#" class="flag">
-           <img src="./img/englishflag.png" alt="UKflag" class="flaging" title="Bahasa Inggris">
-           <img src="./img/indoflag.png" alt="IDflag" class="flagindo" title="Bahasa Indonesia">
-         </a>
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h1>FASILITAS</h1>
+            <div class="garis"></div>
+          </div>
+          <div class="col-lg-12">
+            <div class="fas-nav">
+              <p>Kategori: Galeri / Fasilitas</p>
+            </div>
+            <br>
+            <div class="fas-page">
+              <b>1</b>
+              <a href="">2</a>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./img/office.jpg" alt="Office"/></a>
+                  <a target="" class="desc pt-2 pb-3">Ruang Guru</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./img/music_room.jpg" alt="musicroom"/></a>
+                  <a target="" class="desc pt-2 pb-3">Ruang Musik</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./img/canteen.jpg" alt="canteen"/></a>
+                  <a target="" class="desc pt-2 pb-3">Kantin Sekolah</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./img/health_center.jpg" alt="health_center"/></a>
+                  <a target="" class="desc pt-2 pb-3">Health Center Sekolah</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./img/toilet.jpg" alt="toilet"/></a>
+                  <a target="" class="desc pt-2 pb-3">Toilet</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./img/library.jpg" alt="Perpustakaan"/></a>
+                  <a target="" class="desc pt-2 pb-3">Perpustakaan</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./img/sience_lab.jpg" alt="Laboratorium Sekolah"/></a>
+                  <a target="" class="desc pt-2 pb-3">Laboratium Sekolah</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./img/basketball_court.jpg" alt="Lapangan Basket"/></a>
+                  <a target="" class="desc pt-2 pb-3">Lapangan Basket</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./img/playground.jpg" alt="Playground"/></a>
+                  <a target="" class="desc pt-2 pb-3">Taman Bermain</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <!-- GALERRY -->
-    <br><br><br><br>
-    <div class="header"><h1>Gallery Sekolah</h1></div>
-    <div class="background">
-      <br><br><br><br>
-      <div class="gallery">
-      <img src="./img/office.jpg" alt="Office"/></a>
-      <div class="desc"><a target="_blank" href="./img/office.jpg">Ruang Guru</a></div>
-      </div>
-      <div class="gallery">
-        <img src="./img/music_room.jpg" alt="Music Room"/></a>
-        <div class="desc"><a href="./img/music_room.jpg">Ruang Musik</a></div>
-      </div>
-      <div class="gallery">
-        <img src="./img/canteen.jpg" alt="Canteen"/></a>
-        <div class="desc"><a target="_blank" href="./img/canteen.jpg">Kantin Sekolah</a></div>
-      </div>
-      <div class="gallery">
-          <img src="./img/health_center.jpg" alt="Health Center"/></a>
-          <div class="desc"><a target="_blank" href="./img/health_center.jpg">Health Center Sekolah</a></div>
-      </div>
-      <div class="gallery">
-        <img src="./img/toilet.jpg" alt="Toilet"/></a>
-        <div class="desc"><a target="_blank" href="./img/toilet.jpg">Toilet Sekolah</a></div>
-      </div>
-      <div class="gallery">
-      <img src="./img/library.jpg" alt="Perpustakaan"/></a>
-        <div class="desc"><a target="_blank" href="./img/library.jpg">Perpustakaan Sekolah</a></div>
-      </div>
-      <div class="gallery">
-        <img src="./img/sience_lab.jpg" alt="Laboratorium Sekolah"/></a>
-        <div class="desc"><a target="_blank" href="./img/sience_lab.jpg">Laboratoriun Sekolah</a></div>
-      </div>
-      <div class="gallery">
-        <img src="./img/basketball_court.jpg" alt="Lapangan Basket"/></a>
-        <div class="desc"><a target="_blank" href="./img/basketball_court.jpg">Lapangan Basket</a></div>
-      </div>
-    </div>
+    </section>
+    <br><br>
     <!-- FOOTER -->
     <footer>
       <div class="container">
-        <table>
-          <tr>
-            <td><a href="https://www.iphschools.sch.id/"><img style="padding-bottom: 7em;" src="./img/headerlogo_id.png" alt="Logo IPH"/></a></td>
-            <td>
-              <h2 class="td1">IPH&nbsp;KAMPUS TIMUR</h2>
+        <div class="row text-center p-5">
+          <div class="col-md-3 mb-3 logo"><a href="https://www.iphschools.sch.id/"><img src="img/headerlogo_id.png" alt="Logo IPH"/></a></div>
+          <div class="col-md-3 mb-3">
+            <h2>IPH KAMPUS TIMUR</h2>
               <h3>KELOMPOK BERMAIN - TK</h3>
-              <p>Jl. Nginden Intan Selatan 49<br />Surabaya 60118<br/></p>
+              <p>Jl. Nginden Intan Selatan 49<br />Surabaya 60118<br /></p>
               <p>&nbsp;</p>
               <h3>SEKOLAH DASAR - <br />SEKOLAH MENENGAH PERTAMA &amp; ATAS<br /></h3>
-              <p>Jl. Raya Kedung Baruk 112-114<br />Surabaya 60298<br/></p>
-            </td>
-            <td>
-              <h2 class="td2">KAMPUS BARAT</h2>
+              <p>Jl. Raya Kedung Baruk 112-114<br />Surabaya 60298<br /></p>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h2>IPH KAMPUS BARAT</h2>
               <h3>KELOMPOK BERMAIN - TK</h3>
-              <p>Jl. Pattimura 24, Plaza Segi 8<br/>Surabaya 60189<br/></p>
+              <p>Jl. Pattimura 24, Plaza Segi 8<br />Surabaya 60189<br /></p>
               <p>&nbsp;</p>
-              <h3>SEKOLAH DASAR - SEKOLAH <br/>MENENGAH PERTAMA &amp; ATAS<br/></h3>
-              <p>Jl. Pattimura 2, Plaza Segi 8<br/>Surabaya 60189<br/></p>
-            </td>
-            <td>
-              <h2 class="td3">KONTAK SAYA</h2>
-              <a href="tel:+6289601986519" class="kontak">0896-0198-6519<a>
+              <h3>SEKOLAH DASAR - SEKOLAH <br />MENENGAH PERTAMA &amp; ATAS<br /></h3>
+              <p>Jl. Pattimura 2, Plaza Segi 8<br />Surabaya 60189<br /></p>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h2 class="td3">KONTAK SAYA</h2>
+            <p>
+              <a href="tel:+6289601986519" class="kontak">0896-0198-6519<a> 
               <a href="mailto:marketing@iphschools.sch.id" class="kontak">marketing@iphschools.sch.id</a>
-              <ul>
-                <li style="margin-left: -10px"></li>
-                <li>
-                  <a href="tel:+6289601986519"><img src="http://iphschools.sch.id/file/media/source/footerPHONE.png" alt="footerPHONE"/></a>
-                </li>
-                <li>
-                  <a href="http://api.whatsapp.com/send?phone=6289601986519"><img src="http://iphschools.sch.id/file/media/source/footerWA.png" alt="footerWA"/></a>
-                </li>
-                <li>
-                  <a href="mailto:2081011@unai.edu"><img src="http://iphschools.sch.id/file/media/source/footerMAIL.png" alt="footerMAIL"/></a>
-                </li>
-              </ul>
-            </td>
-          </tr> 
-        </table>
-      </div>
-      <div class="copyright">
-        <div class="container">
-          <p>Powered by&nbsp;<a href="https://www.fiesto.com">fiesto.com</a></p>
+            </p>
+            <div class="row justify-content-center mt-4">
+              <div class="col-3">
+                <a href="tel:+6289601986519"><img src="http://iphschools.sch.id/file/media/source/footerPHONE.png" alt="footerPHONE" /></a>
+              </div>
+              <div class="col-3">
+                <a href="http://api.whatsapp.com/send?phone=6289601986519"><img src="http://iphschools.sch.id/file/media/source/footerWA.png" alt="footerWA" /></a>
+              </div>
+              <div class="col-3">
+                <a href="mailto:2081011@unai.edu"><img src="http://iphschools.sch.id/file/media/source/footerMAIL.png" alt="footerMAIL" /></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+      <div class="copyright text-center pt-3 pb-1">
+        <p>Powered by&nbsp;<a href="https://www.fiesto.com">fiesto.com</a></p>
+      </div>
     </footer>
+    <!-- Scriptnya -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
